@@ -139,7 +139,6 @@ const handleListItemClick = (e) => {
 };
 
 
-
 // Event Listeners
 leftBtn.addEventListener('click', handleLefttButtonClick);
 rightBtn.addEventListener('click', handleRightButtonClick);
