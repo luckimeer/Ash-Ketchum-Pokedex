@@ -15,11 +15,10 @@ const pokeListItems = document.querySelectorAll('.list-item');
 const leftBtn = document.querySelector('.left-btn');
 const rightBtn = document.querySelector('.right-btn');
 const welcomeMsg = document.querySelector('.welcome-screen');
-const typedCursor = document.querySelector('.typed-cursor--blink');
 const stats = document.querySelector('.stats');
 
 
-// constants and variables
+// Constants and Variables
 const TYPES = [
     'normal', 'fighting', 'flying',
     'poison', 'ground', 'rock',
@@ -40,7 +39,7 @@ const options = {
 };
 
 
-// Function
+// Functions
 const startPokedex = () => {
     leftScreen.classList.remove('hide');
     welcomeMsg.classList.remove('hide');
@@ -141,7 +140,7 @@ const handleListItemClick = (e) => {
 
 
 
-// event listeners
+// Event Listeners
 leftBtn.addEventListener('click', handleLefttButtonClick);
 rightBtn.addEventListener('click', handleRightButtonClick);
 onOff.addEventListener('click', startPokedex);
@@ -151,5 +150,5 @@ for (const pokeListItem of pokeListItems) {
 };
 
 
-// initialize app
+// Initialize app
 fetchPokeList('https://pokeapi.co/api/v2/pokemon?limit=0&offset=20')
