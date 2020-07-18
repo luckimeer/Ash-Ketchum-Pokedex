@@ -12,7 +12,7 @@ https://ash-ketchum-pokedex.herokuapp.com/
 
 ### Known Bugs
 
-[ ] Press the ON/OFF Button and Pokedex does not turn off
+- [ ] Press the ON/OFF Button and Pokedex does not turn off
 
 ### Tech
 
@@ -22,7 +22,7 @@ https://ash-ketchum-pokedex.herokuapp.com/
 
 ### Todos
 
-[ ] Write Tests - look into Jest
+- [ ] Write Tests - look into Jest
 
 Connect with me!
 ----
