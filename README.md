@@ -7,8 +7,9 @@ https://ash-ketchum-pokedex.herokuapp.com/
 
 ### Potential Features
 
-- ([ ]) Adding Attack actions for each Pokemon
-- ([ ]) Have the small lights flash every time Pokedex turns on
+- [ ] Adding Attack actions for each Pokemon
+- [ ] Have the small lights flash every time Pokedex turns on
+- [ ] Mercury
 
 ### Known Bugs
 
