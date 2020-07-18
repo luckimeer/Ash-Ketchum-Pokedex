@@ -1,6 +1,6 @@
 # Ash Ketchum Pokedex
 
-A web quiz application that replicates a Pokedex from Pokemon, it will display all information of a selected Pokemon.
+A web application that replicates a Pokedex from Pokemon, it will display all information of a selected Pokemon.
 
 Check out the site:
 https://ash-ketchum-pokedex.herokuapp.com/
