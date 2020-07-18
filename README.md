@@ -1,4 +1,4 @@
-# Privilege
+# Ash Ketchum Pokedex
 
 A web quiz application that replicates a Pokedex from Pokemon, it will display all information of a selected Pokemon.
 
@@ -7,8 +7,8 @@ https://ash-ketchum-pokedex.herokuapp.com/
 
 ### Potential Features
 
- [ ] Adding Attack actions for each Pokemon
- [ ] Have the small lights flash every time Pokedex turns on
+- ([ ]) Adding Attack actions for each Pokemon
+- ([ ]) Have the small lights flash every time Pokedex turns on
 
 ### Known Bugs
 
