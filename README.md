@@ -13,7 +13,7 @@ https://ash-ketchum-pokedex.herokuapp.com/
 ### Known Bugs
 
 - [ ] Press the ON/OFF Button and Pokedex does not turn off
-- [ ] Pokemon list does not start at the first Pokemon
+- [x] Pokemon list does not start at the first Pokemon
 
 ### Tech
 

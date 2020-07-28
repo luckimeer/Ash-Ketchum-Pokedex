@@ -71,8 +71,9 @@ const fetchPokeList = url => {
                 if (resultData) {
                     const { name, url } = resultData;
                     const urlArray = url.split('/')
-                    const id = urlArray[urlArray.length -2];
-                    pokeListItem.textContent = id + '. ' + name;
+                    const id = urlArray[urlArray.length - 2];
+                    console.log(pokeListItem.textContent = id + '. ' + name);
+                    
                 } else {
                     pokeListItem.textContent = '';
                 }
@@ -149,4 +150,4 @@ for (const pokeListItem of pokeListItems) {
 
 
 // Initialize app
-fetchPokeList('https://pokeapi.co/api/v2/pokemon?limit=0&offset=20')
+fetchPokeList('https://pokeapi.co/api/v2/pokemon?limit=0&offset=0')
