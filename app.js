@@ -43,8 +43,21 @@ const options = {
 const startPokedex = () => {
     leftScreen.classList.remove('hide');
     welcomeMsg.classList.remove('hide');
+    
     let typed = new Typed('.welcome-screen', options);
-    rightScreen.classList.remove('hide');
+    console.log('step 1');
+    
+    rightScreen.style.display = 'flex';
+    
+    /*
+    if(document.getElementById("test").style.display === 'flex') {
+        document.getElementById("test").style.display == 'flex';
+        console.log('yay');
+    } else {
+        document.getElementById("test").style.display == 'none';
+    }*/
+
+    //rightScreen.classList.remove('hide');
 };
 
 const resetScreen = () => {
