@@ -12,8 +12,9 @@ https://ash-ketchum-pokedex.herokuapp.com/
 
 ### Known Bugs
 
-- [ ] Press the ON/OFF Button and Pokedex does not turn off
-- [x] Pokemon list does not start at the first Pokemon
+- [ ] 1. Press the ON/OFF Button and Pokedex does not turn off
+- [x] 2. Pokemon list appears before clicking the on button is clicked
+- [x] 3. Pokemon list does not start at the first Pokemon
 
 ### Tech
 
