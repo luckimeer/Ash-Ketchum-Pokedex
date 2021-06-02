@@ -13,6 +13,7 @@ https://ash-ketchum-pokedex.herokuapp.com/
 ### Known Bugs
 
 - [ ] 1. Press the ON/OFF Button and Pokedex does not turn off
+   - Temporary solution: Added code to disable eventlistener after single firing to prevent welcome screen message from replaying when clicking the on/off button multiple times  
 - [x] 2. Pokemon list appears before clicking the on button is clicked
 - [x] 3. Pokemon list does not start at the first Pokemon
 
