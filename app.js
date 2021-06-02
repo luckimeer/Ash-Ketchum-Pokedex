@@ -43,22 +43,17 @@ const options = {
 const startPokedex = () => {
     leftScreen.classList.remove('hide');
     welcomeMsg.classList.remove('hide');
-    
+    rightScreen.classList.remove('hide');
     let typed = new Typed('.welcome-screen', options);
-    console.log('step 1');
-    
-    rightScreen.style.display = 'flex';
-    
-    /*
-    if(document.getElementById("test").style.display === 'flex') {
-        document.getElementById("test").style.display == 'flex';
-        console.log('yay');
-    } else {
-        document.getElementById("test").style.display == 'none';
-    }*/
-
-    //rightScreen.classList.remove('hide');
 };
+
+/*
+const turnOffPokedex = () => {
+    leftScreen.classList.add('hide');
+    welcomeMsg.classList.add('hide');
+    rightScreen.classList.add('hide');
+}*/
+
 
 const resetScreen = () => {
     leftScreen.classList.remove('hide');
@@ -155,7 +150,13 @@ const handleListItemClick = (e) => {
 // Event Listeners
 leftBtn.addEventListener('click', handleLefttButtonClick);
 rightBtn.addEventListener('click', handleRightButtonClick);
-onOff.addEventListener('click', startPokedex);
+
+onOff.addEventListener('click', startPokedex, {
+    once: true
+});
+
+
+
 
 for (const pokeListItem of pokeListItems) {
     pokeListItem.addEventListener('click', handleListItemClick);
